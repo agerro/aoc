@@ -36,7 +36,6 @@ for sect in sections:
             final_sec.append(sect)
 print(len(final_sec))
 
-
 for section in range(len(final_sec)):
     print(final_sec[section])
     result.extend(find_matches(final_sec[section]))
